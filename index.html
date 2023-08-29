@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que vimos até o momento em HTML5</title>
+</head>
+<body>
+    <!--Título da página-->
+    <h1 style="text-align: center;">Documentação de aprendizado - HTML5</h1>
+    <hr>
+
+    <!--Indice-->
+    <h2> <mark>Índice</mark> </h2>
+    <ol>
+        <li> <a href="#structure"> <h3>Estrutura Básica</h3> </a> </li>
+        <li> <a href="#header"> <h3>Tags de Cabeçalho</h3> </a> </li>
+        <li> <a href="#paragraph"> <h3>Tags de Parágrafo</h3> </a> </li>
+        <li> <a href="#links"> <h3>Tags de Links</h3> </a> </li>
+        <li> <a href="#images"> <h3>Tags de Imagens</h3> </a> </li>
+        <li> <a href="#formatting"> <h3>Tags de Formatações</h3> </a> </li>
+        <li> <a href="#quotes"> <h3>Tags de Citações</h3> </a> </li>
+        <li> <a href="#references"> <h3>Referências Bibliográficas</h3> </a> </li>
+    </ol>
+
+    <!--Guia de conteúdos-->
+    <!--Estrutura Básica-->
+    <h2 id="structure"> <mark>Estrutura Básica</mark> </h2>
+    <p>
+        Antes de aprender as principais tags do HTML, é necessário conhecer um pouco de sua estrutura básica, que nada mais é do que algumas tags de configuração que irão receber as tags de elementos.
+    </p>
+    <ul>
+        <li> <strong>!DOCTYPE html</strong> </li>
+        <p>Primeira tag a ser colocada. É a tag que especifica que o tipo de documento é feito em HTML5</p>
+
+        <li> <strong>html</strong> </li>
+        <p>Tag raíz. Local onde todas as tags ficarão armazenadas</p>
+
+        <li> <strong>head</strong> </li>
+        <p>Configuração da página. Onde encontra-se metatags e tag de title por exemplo.</p>
+
+        <li> <strong>meta</strong> </li>
+        <p>Metatags, onde podemos configurar algo na página</p>
+
+        <li> <strong>title</strong> </li>
+        <p>Título da página web. Aparece na aba do navegador.</p>
+
+        <li> <strong>body</strong> </li>
+        <p>Corpo da página. Onde ficarão as tags de elementos, que cria os conteúdos visuais.</p>
+    </ul>
+
+    <!--Cabeçalho-->
+    <h2 id="header"> <mark>Tags de Cabeçalho</mark> </h2>
+    <p>São tags utilizadas para inserir títulos e subtítulos.</p>
+    <ul>
+        <li> <strong>h1</strong> - Título de nível 1</li>
+        <li> <strong>h2</strong> - Título de nível 2</li>
+        <li> <strong>h3</strong> - Título de nível 3</li>
+        <li> <strong>h4</strong> - Título de nível 4</li>
+        <li> <strong>h5</strong> - Título de nível 5</li>
+        <li> <strong>h6</strong> - Título de nível 6</li>
+    </ul>
+
+    <!--Parágrafo-->
+    <h2 id="paragraph"> <mark>Tag de Parágrafo</mark> </h2>
+    <p>Cria-se um parágrafo para inserir textos simples através da <strong>tag p.</strong> </p>
+
+    <!--Links-->
+    <h2 id="links"> <mark>Tag de Links</mark> </h2>
+    <p>
+        Os links são úteis para que possamos navegar em mais páginas web. A tag <strong>a</strong> é a tag responsável pela criação de links, e dentro dela possui um atributo chamado <strong>href</strong> que é o local onde iremos inserir o caminho (link) da página para qual queremos navegar.
+    </p>
+
+    <!--Imagens-->
+    <h2 id="images"> <mark>Tag de Imagens</mark> </h2>
+    <p>
+        Imagens são itens importantes em nosso site, talvez um dos itens muito utilizados em quaisquer aplicação web. Para inserir imagens, utilizamos a tag <strong>img</strong>. É importante citar que ao colocar a tag de imagem ela vem acompanhada de 2 atributos importantes:
+    </p>
+    <ul>
+        <li> <strong>src - source:</strong> Local onde a imagem está localizada. </li>
+        <li> <strong>alt - texto alternativo:</strong> Como se fosse uma legenda da imagem. </li>
+    </ul>
+    <p>
+        Além disso, podemos fazer com que as imagens possam ser manipuladas em relação a sua <strong>largura e altura
+        </strong>. Para isso, podemos utilizar os atributos:
+    </p>
+    <ul>
+        <li> <strong>Width: </strong>Largura da imagem </li>
+        <li> <strong>Heigth: </strong>Altura da imagem </li>
+    </ul>
+    <p> <strong>Obs: Ambas geralmente são medidas em px (pixels).</strong> </p>
+
+    <!--Formatação-->
+    <h2 id="formatting"> <mark>Tags de Formatações</mark> </h2>
+    <p>
+        Geralmente utilizamos algumas tags para fazer determinadas alterações em nossos textos. Para isso, temos aqui algumas tags que podem ajudar neste objetivo:
+    </p>
+    <ul>
+        <li> <strong>br - </strong> Quebra uma linha na página. </li>
+        <li> <strong>hr - </strong> Cria uma linha horizontal. </li>
+        <li> <strong>strong - </strong> Deixa o texto mais forte, em negrito. </li>
+        <li> <strong>em - </strong> Dar ênfase a alguma palavra/texto, ficando em itálico. </li>
+        <li> <strong>mark - </strong> Destaca algo com uma marca. </li>
+        <li> <strong>small - </strong> Texto fica um pouco menor. </li>
+        <li> <strong>del - </strong> Texto excluído. Passa um risco sobre o texto. </li>
+        <li> <strong>ins - </strong> Texto inserido. Conteúdo fica sublinhado. </li>
+        <li> <strong>sub - </strong> Texto fica um pouco mais abaixo. </li>
+        <li> <strong>sup - </strong> Texto fica um pouco mais acima. </li>
+    </ul>
+
+    <!--Citações-->
+    <h2 id="quotes"> <mark>Tags de Citações</mark> </h2>
+    <p>
+        Geralmente utilizados para inserir referências de algum conteúdo criado. Podendo ser referências de terceiros ou até mesmo do próprio desenvolvedor. As tags mais utilizadas:
+    </p>
+    <ul>
+        <li> <strong>blockquote - </strong> Usada para definir uma seção de outra fonte. </li>
+        <li> <strong>q - </strong> Tag para usar em citações curtas. O navegador insere aspas na citação. </li>
+        <li> <strong>abbr - </strong> Abreviar palavras / termos e mostrar seu significado ao passar o mouse. </li>
+        <li> <strong>address - </strong> Utilizadas para informações de contato. Número de telefone, e-mail, residência etc. </li>
+        <li><strong>cite - </strong> Usado para definir um título de trabalho criativo. Poema, livro, música etc.</li>
+        <li><strong>bdo - </strong> Muda o sentido do texto, geralmente deixando ao contrário. Para isso deverá utilizar o atributo <strong>dir="rtl".</strong> </li>
+    </ul>
+
+    <!--Referências bibliográficas-->
+    <h2 id="references"> <mark>Referências Bibliográficas</mark> </h2>
+    <ol>
+        <li> <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Html Básico</a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Atributos </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Cabeçalhos </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank">Parágrafos </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank">Formatação </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_quotation_elements.asp" target="_blank">Citações </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">Links </a> </li>
+        <li> <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">Imagens </a> </li>
+    </ol>
+</body>
+</html>
